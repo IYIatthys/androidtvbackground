@@ -17,8 +17,8 @@ API_HEADERS = {
 TRUETYPE_URL = 'https://github.com/googlefonts/roboto/raw/main/src/hinted/Roboto-Light.ttf'
 BACKGROUND_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmdb_backgrounds")
 
-# Edit to False if you don't want to automatically share the images with your Android TV device
-SHARE_TO_TV = True
+# Edit to True if you want to automatically share the images with your Android TV device
+SHARE_TO_TV = False
 
 # Edit to set the number of pages, which dictates the amount of wallpapers generated
 # Each page has 20 items
